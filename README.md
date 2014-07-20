@@ -1,5 +1,5 @@
 
-A takeaway program, that has list of dishes with prices, youa can place an order by giving the list of dishes.Their quantities and a number that should be the exact total. If the sum is not correct the method should raise an error, otherwise the customer is sent a text saying that the order was placed successfully and that it will be delivered 1 hour from now, e.g. "Thank you! Your order was placed and will be delivered before 18:52".
+A takeaway program, that has list of dishes with prices, you can place an order by giving the list of dishes.Their quantities and a number that should be the exact total. If the sum is not correct the method should raise an error, otherwise the customer is sent a text saying that the order was placed successfully and that it will be delivered 1 hour from now, e.g. "Thank you! Your order was placed and will be delivered before 18:52".
 The text sending functionality is implemented using Twilio API.
 
 >>Dish       

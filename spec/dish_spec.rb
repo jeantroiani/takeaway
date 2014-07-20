@@ -16,6 +16,11 @@ describe Dish do
 			expect(arepa.price).to eq 6
 		end
 
+		it" can show the ingredients" do
+			arepa=Dish.new(0,"pulled_beef","black_beans","plantain")
+			
+			expect(arepa.ingredients).to eq ["pulled_beef","black_beans","plantain"]
+		end
 
 
 
