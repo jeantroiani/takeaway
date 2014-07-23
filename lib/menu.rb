@@ -1,3 +1,5 @@
+require './lib/customer' 
+
 class Menu
 
 	def initialize
@@ -8,7 +10,7 @@ class Menu
 		@items
 	end
 
-	def add_dish(dish)
+	def include_dish(dish)
 		@items<<dish
 
 	end
@@ -17,5 +19,10 @@ class Menu
 		@items.delete(dish)
 
 	end
+
+	def add_to_order(customer,dish,quantity=1)
+		customer.add_to_my_order(dish,quantity)
+	end
+	
 
 end

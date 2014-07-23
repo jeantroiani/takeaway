@@ -1,9 +1,14 @@
 class Dish
 
-
-	def initialize(price,*ingredients)
+	def initialize(name,price,*ingredients)
+		@name = name
 		@price = price
 		@ingredients = ingredients
+		
+	end
+
+	def item_name
+		@name
 	end
 
 	def price
